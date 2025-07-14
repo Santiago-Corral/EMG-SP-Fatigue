@@ -239,8 +239,6 @@ time_index = [0,2,4,6]
 sample_freq = 1259 #Hz
 
 
-
-
 # Initialize a dictionary to store the data for each muscle
 # Initialize a dictionary to store the MNF/MDF data for each muscle, subject, and trial
 muscle_data_MNF = {f'muscle_{i}': {f'subject_{j}': [] for j in range(1, 14)} for i in range(1, 14)}
